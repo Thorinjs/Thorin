@@ -1,10 +1,11 @@
 {
   "name": "thorin",
-  "author": "PrearlVentures",
-  "version": "0.0.1",
+  "author": "Stiudeo",
+  "version": "1.0.0",
   "dependencies": {
     "async": "^1.4.2",
-    "fs-extra": "^0.26.7"
+    "fs-extra": "^0.26.7",
+    "promise.prototype.finally": "^1.0.1"
   },
   "description": "Next gen framework with a cool sound",
   "main": "index.js",
