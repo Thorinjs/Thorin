@@ -12,7 +12,7 @@
     "thorin-sanitize": "^1.x"
   },
   "description": "Next gen framework with a cool sound",
-  "main": "index.js",
+  "main": "lib/thorin.js",
   "license": "MIT",
   "repository": {
     "type": "git",
