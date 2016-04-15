@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "Stiudeo",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "dependencies": {
     "async": "^1.4.2",
     "camelcase": "^2.1.1",
@@ -9,6 +9,7 @@
     "dot-object": "^1.4.1",
     "extend": "^3.0.0",
     "fs-extra": "^0.26.7",
+    "node-fetch": "^1.5.1",
     "promise.prototype.finally": "^1.0.1",
     "thorin-sanitize": "^1.x"
   },
