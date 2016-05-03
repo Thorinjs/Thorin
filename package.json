@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "Stiudeo",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "dependencies": {
     "async": "^1.4.2",
     "camelcase": "^2.1.1",
