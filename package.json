@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "Stiudeo",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "dependencies": {
     "async": "^1.4.2",
     "camelcase": "^2.1.1",
@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stiudeo/Thorin"
+    "url": "https://github.com/Thorinjs/Thorin"
   },
   "homepage": "http://thorinjs.com",
   "bugs": {
-    "url": "https://github.com/Stiudeo/Thorin/issues"
+    "url": "https://github.com/Thorinjs/Thorin/issues"
   }
 }
