@@ -9,7 +9,7 @@
     "dot-object": "1.4.1",
     "extend": "3.0.0",
     "fs-extra": "0.26.7",
-    "node-fetch": "1.5.1",
+    "node-fetch-abort": "^1.0.x",
     "node-uuid": "1.4.7",
     "promise.prototype.finally": "1.0.1",
     "thorin-sanitize": "^1.x"
