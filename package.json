@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "1.1.52",
+  "version": "1.1.53",
   "dependencies": {
     "async": "1.4.2",
     "camelcase": "2.1.1",
@@ -15,7 +15,7 @@
     "thorin-sanitize": "^1.x"
   },
   "description": "Next gen framework with a cool sound",
-  "main": "lib/thorin.js",
+  "main": "lib/Thorin.js",
   "license": "MIT",
   "repository": {
     "type": "git",
