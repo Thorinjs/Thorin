@@ -7,7 +7,7 @@ const extend = require('extend'),
 * */
 const wrapper = {
   util: {
-    extend: (source) => {
+    extend: function (source) {
       let target = {};
       let args = Array.prototype.slice.call(arguments);
       args.reverse();
