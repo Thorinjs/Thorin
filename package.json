@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "1.1.56",
+  "version": "1.1.57",
   "dependencies": {
     "async": "1.4.2",
     "camelcase": "2.1.1",
@@ -10,7 +10,7 @@
     "extend": "3.0.0",
     "fs-extra": "0.26.7",
     "node-fetch-abort": "^1.0.x",
-    "uuid": "3.0.0",
+    "uuid": "3.1.0",
     "promise.prototype.finally": "2.0.0",
     "thorin-sanitize": "^1.x"
   },
