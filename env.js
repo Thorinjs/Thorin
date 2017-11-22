@@ -5,8 +5,11 @@ const path = require('path'),
 /**
  * Manually set data to the .thorin config file.
  * */
-const THORIN_ROOT = process.cwd(),
-  PERSIST_FILE = path.normalize(THORIN_ROOT + '/config/.thorin');
+const THORIN_ROOT = process.cwd();
+let PERSIST_FILE = path.normalize(THORIN_ROOT + '/config/.thorin');
+if(typeof process.pkg !== 'undefined') {
+  PERSIST_FILE = path.normalize(THORIN_ROOT + '/.thorin');
+}
 
 function getConfig() {
   try {
