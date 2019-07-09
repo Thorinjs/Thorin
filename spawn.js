@@ -19,7 +19,9 @@ module.exports = function () {
   let opt = (typeof args[args.length - 1] === 'object' && args[args.length - 1]) ? args.pop() : {};
   if (!opt.cwd) opt.cwd = fullPath;
   if (!opt.env) opt.env = process.env;
-  let timeout = (opt.timeout || 10000);
+  let timeout = (opt.timeout || 10000),
+    command = opt.command || 'node';
+  delete opt.command;
   delete opt.timeout;
   let _log = (d) => {
     d = d.toString().replace(/\n+/g, '\n');
@@ -28,7 +30,7 @@ module.exports = function () {
     console.log(d);
   };
   let sargs = [scriptName].concat(args);
-  let ps = spawn(`node`, sargs, opt);
+  let ps = spawn(command, sargs, opt);
   ps.stdout.on('data', _log);
   ps.stderr.on('data', _log);
   return new Promise((resolve, reject) => {
@@ -55,7 +57,6 @@ module.exports = function () {
     });
   });
 }
-
 
 /**
  * Simple function that will just wait the given time and resolve the promise
