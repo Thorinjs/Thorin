@@ -56,3 +56,14 @@ module.exports = function () {
   });
 }
 
+
+/**
+ * Simple function that will just wait the given time and resolve the promise
+ * */
+module.exports.wait = (ms) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, ms || 1000);
+  });
+};
