@@ -20,7 +20,7 @@ function doUpdate(deps = []) {
     console.log(`--> No new installs are required.`);
     return process.exit(0);
   }
-  console.log(`--> Updating to latest version:`);
+  console.log(`--> Updating Thorin modules to latest version:`);
   const npmInstalls = [];
   NEW_INSTALLS.forEach((item) => {
     let msg = `- ${item.name}`;
