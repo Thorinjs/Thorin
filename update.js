@@ -23,6 +23,9 @@ function doUpdate(deps = []) {
   console.log(`--> Updating Thorin modules to latest version:`);
   const npmInstalls = [];
   NEW_INSTALLS.forEach((item) => {
+    if (item.current && item.current.indexOf('.') !== -1) {
+      item.version = item.current.split('.')[0] + '.x';
+    }
     let msg = `- ${item.name}`;
     if (item.current) msg += `@${item.current}`;
     msg += ` -> ${item.version}`;
@@ -70,6 +73,7 @@ function processArgv() {
     let q = v.lastIndexOf('@');
     let name = v.substr(0, q),
       version = v.substr(q + 1);
+
     NEW_INSTALLS.push({
       name,
       version
