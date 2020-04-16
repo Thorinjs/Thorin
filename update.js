@@ -1,6 +1,5 @@
 'use strict';
-const fs = require('fs'),
-  path = require('path'),
+const path = require('path'),
   exec = require('child_process').exec,
   cwd = process.cwd();
 

@@ -18,7 +18,7 @@ module.exports = class ISanitizer {
   * }
   * */
   validate(input, opt) {
-    throw new Error("Thorin.ISanitizer: " + this.code + " validate() not implemented.");
+    throw new Error("Thorin.ISanitizer: validate() not implemented.");
   }
 
 };

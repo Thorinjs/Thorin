@@ -2,8 +2,7 @@
 /**
  * This is a simple wrapper over child_process.spawn
  * */
-const {spawn} = require('child_process'),
-  path = require('path');
+const { spawn } = require('child_process');
 
 /**
  * The spawn function that will launch a new node.js process
