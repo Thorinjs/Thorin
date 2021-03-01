@@ -1,17 +1,17 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "2.0.25",
+  "version": "2.1.0",
   "dependencies": {
     "async": "3.2.0",
-    "camelcase": "6.0.0",
+    "camelcase": "6.2.0",
     "colors": "1.4.0",
-    "dot-object": "2.1.3",
+    "dot-object": "2.1.4",
     "extend": "3.0.2",
-    "fs-extra": "9.0.0",
+    "fs-extra": "9.1.0",
     "node-fetch": "2.6.1",
     "thorin-sanitize": "^1.1.1",
-    "uuid": "7.0.3"
+    "uuid": "8.3.2"
   },
   "description": "Thorin.io core module engine",
   "main": "lib/index.js",
