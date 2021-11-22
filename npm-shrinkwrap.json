@@ -1,12 +1,12 @@
 {
   "name": "thorin",
-  "version": "2.1.1",
+  "version": "2.1.4",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "thorin",
-      "version": "2.1.1",
+      "version": "2.1.4",
       "license": "MIT",
       "dependencies": {
         "async": "3.2.0",
@@ -16,7 +16,7 @@
         "extend": "3.0.2",
         "fs-extra": "9.1.0",
         "node-fetch": "2.6.1",
-        "thorin-sanitize": "^1.1.2",
+        "thorin-sanitize": "^1.1.3",
         "uuid": "8.3.2"
       },
       "engines": {
@@ -203,9 +203,9 @@
       }
     },
     "node_modules/thorin-sanitize": {
-      "version": "1.1.2",
-      "resolved": "https://registry.npmjs.org/thorin-sanitize/-/thorin-sanitize-1.1.2.tgz",
-      "integrity": "sha512-57tVurNS5BSVQM6V1zzdJXpvmCr8zJLdtxWGsDNpQiFQGSCLl/VRYgNPnDI/m+12d0VV7K32nhACwYRMHsR15Q==",
+      "version": "1.1.3",
+      "resolved": "https://registry.npmjs.org/thorin-sanitize/-/thorin-sanitize-1.1.3.tgz",
+      "integrity": "sha512-KfNLZbWfZoJ/y1YOD4aZ9Fl0cpb36EvlaW3WZ+tb5BVdDuKFUkBohOmJNiG1R++2oXQTUg2u9sN+OGjY7y2YZQ==",
       "hasShrinkwrap": true,
       "dependencies": {
         "is-valid-path": "0.1.1",
@@ -449,9 +449,9 @@
       "integrity": "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
     },
     "thorin-sanitize": {
-      "version": "1.1.2",
-      "resolved": "https://registry.npmjs.org/thorin-sanitize/-/thorin-sanitize-1.1.2.tgz",
-      "integrity": "sha512-57tVurNS5BSVQM6V1zzdJXpvmCr8zJLdtxWGsDNpQiFQGSCLl/VRYgNPnDI/m+12d0VV7K32nhACwYRMHsR15Q==",
+      "version": "1.1.3",
+      "resolved": "https://registry.npmjs.org/thorin-sanitize/-/thorin-sanitize-1.1.3.tgz",
+      "integrity": "sha512-KfNLZbWfZoJ/y1YOD4aZ9Fl0cpb36EvlaW3WZ+tb5BVdDuKFUkBohOmJNiG1R++2oXQTUg2u9sN+OGjY7y2YZQ==",
       "requires": {
         "is-valid-path": "0.1.1",
         "range_check": "1.4.0",
