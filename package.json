@@ -9,7 +9,7 @@
     "dot-object": "2.1.2",
     "extend": "3.0.2",
     "fs-extra": "8.1.0",
-    "node-fetch": "2.6.1",
+    "node-fetch": "3.1.1",
     "promise.prototype.finally": "3.1.2",
     "thorin-sanitize": "^1.0.58",
     "uuid": "3.4.0"
