@@ -3,7 +3,7 @@
   "author": "UNLOQ Systems",
   "version": "1.5.3",
   "dependencies": {
-    "async": "3.1.1",
+    "async": "3.2.2",
     "camelcase": "5.3.1",
     "colors": "1.4.0",
     "dot-object": "2.1.2",
