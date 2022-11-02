@@ -1,15 +1,15 @@
 {
   "name": "thorin",
-  "version": "2.1.9",
+  "version": "2.1.12",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "thorin",
-      "version": "2.1.9",
+      "version": "2.1.12",
       "license": "MIT",
       "dependencies": {
-        "async": "3.2.x",
+        "async": "3.2.3",
         "camelcase": "6.2.0",
         "colors": "1.4.0",
         "dot-object": "2.1.4",
@@ -168,9 +168,9 @@
       }
     },
     "node_modules/minimatch": {
-      "version": "3.0.4",
-      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz",
-      "integrity": "sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==",
+      "version": "3.1.2",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz",
+      "integrity": "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==",
       "dependencies": {
         "brace-expansion": "^1.1.7"
       },
@@ -453,9 +453,9 @@
       }
     },
     "minimatch": {
-      "version": "3.0.4",
-      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz",
-      "integrity": "sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==",
+      "version": "3.1.2",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz",
+      "integrity": "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==",
       "requires": {
         "brace-expansion": "^1.1.7"
       }
