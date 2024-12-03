@@ -1,12 +1,12 @@
 {
   "name": "thorin",
-  "version": "1.5.3",
+  "version": "1.5.7",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "thorin",
-      "version": "1.5.3",
+      "version": "1.5.7",
       "license": "MIT",
       "dependencies": {
         "async": "3.1.1",
@@ -17,7 +17,7 @@
         "fs-extra": "8.1.0",
         "node-fetch": "2.6.1",
         "promise.prototype.finally": "3.1.2",
-        "thorin-sanitize": "^1.1.5",
+        "thorin-sanitize": "^1.1.6",
         "uuid": "3.4.0"
       }
     },
@@ -392,9 +392,9 @@
       }
     },
     "node_modules/thorin-sanitize": {
-      "version": "1.1.5",
-      "resolved": "https://registry.npmjs.org/thorin-sanitize/-/thorin-sanitize-1.1.5.tgz",
-      "integrity": "sha512-J2fu62tI8aBIL3Px+5wC7KqM02Z/LwprrOHAJ6lr4r542GhVoxRtY3NrsKaQDKKHrnCp9pCYYgMMTkLycJxc6g==",
+      "version": "1.1.6",
+      "resolved": "https://registry.npmjs.org/thorin-sanitize/-/thorin-sanitize-1.1.6.tgz",
+      "integrity": "sha512-VxcZcpG92VNS2oF/P/a1BfEzK/GuC2EetQOAwtCgj7vVxmHsZFIghaiXA74kVjfvrGAfZ+ibcqhNPn4N0qcxwA==",
       "hasShrinkwrap": true,
       "dependencies": {
         "is-valid-path": "0.1.1",
