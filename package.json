@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "2.1.26",
+  "version": "2.1.27",
   "dependencies": {
     "async": "3.2.6",
     "camelcase": "6.3.0",
@@ -9,7 +9,9 @@
     "dot-object": "2.1.5",
     "extend": "3.0.2",
     "fs-extra": "11.3.0",
+    "md5.js": "^1.3.5",
     "node-fetch": "2.7.0",
+    "safe-buffer": "^5.2.1",
     "thorin-sanitize": "1.1.6",
     "uuid": "10.0.0"
   },
@@ -21,9 +23,9 @@
     "url": "https://github.com/Thorinjs/Thorin"
   },
   "engines": {
-    "node": ">= 12.10.0"
+    "node": ">= 16.x"
   },
-  "homepage": "http://thorin.io",
+  "homepage": "https://thorin.io",
   "bugs": {
     "url": "https://github.com/Thorinjs/Thorin/issues"
   }
