@@ -3,8 +3,8 @@ const thorinFetch = require('./lib/util/fetch');
 const extend = require('extend'),
   ThorinError = require('./lib/util/errors');
 /*
-* This is the raw thorin fetcher
-* */
+ * This is the raw thorin fetcher
+ * */
 const wrapper = {
   util: {
     extend: function (source) {
@@ -22,7 +22,7 @@ const wrapper = {
     if (typeof status === 'number') {
       e.statusCode = status;
     }
-    e.ns = 'FETCH';
+    e.ns = e.code?.indexOf('.') === -1 ? 'FETCH' : e.code.split('.')[0];
     return e;
   }
 };
