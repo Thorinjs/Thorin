@@ -10,8 +10,8 @@
     "extend": "3.0.2",
     "fs-extra": "11.3.0",
     "node-fetch": "2.7.0",
-    "thorin-sanitize": "1.1.6",
-    "uuid": "10.0.0"
+    "thorin-sanitize": "^1.1.7",
+    "uuid": "^13.0.0"
   },
   "description": "Thorin.io core module engine",
   "main": "lib/index.js",
