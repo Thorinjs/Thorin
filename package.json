@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "2.1.32",
+  "version": "2.1.33",
   "dependencies": {
     "async": "3.2.6",
     "camelcase": "6.3.0",
@@ -10,7 +10,7 @@
     "extend": "3.0.2",
     "fs-extra": "11.3.0",
     "node-fetch": "2.7.0",
-    "thorin-sanitize": "^1.1.7",
+    "thorin-sanitize": "1.1.8",
     "uuid": "^13.0.0"
   },
   "description": "Thorin.io core module engine",
