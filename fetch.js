@@ -1,10 +1,10 @@
 'use strict';
 const thorinFetch = require('./lib/util/fetch');
 const extend = require('extend'),
-  ThorinError = require('./lib/util/errors');
+  ThorinError = require('./lib/util/error');
 /*
- * This is the raw thorin fetcher
- * */
+* This is the raw thorin fetcher
+* */
 const wrapper = {
   util: {
     extend: function (source) {
@@ -18,11 +18,11 @@ const wrapper = {
     }
   },
   error: (code, message, status) => {
-    let e = new ThorinError.generic(code, message);
+    let e = new ThorinError(code, message);
     if (typeof status === 'number') {
       e.statusCode = status;
     }
-    e.ns = e.code?.indexOf('.') === -1 ? 'FETCH' : e.code.split('.')[0];
+    e.ns = 'FETCH';
     return e;
   }
 };

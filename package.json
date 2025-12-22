@@ -1,27 +1,29 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "1.5.12",
+  "version": "2.1.34",
   "dependencies": {
-    "async": "3.1.1",
-    "camelcase": "5.3.1",
+    "async": "3.2.6",
+    "camelcase": "6.3.0",
     "colors": "1.4.0",
-    "dot-object": "2.1.2",
+    "dot-object": "2.1.5",
     "extend": "3.0.2",
-    "fs-extra": "8.1.0",
-    "node-fetch": "2.6.1",
-    "promise.prototype.finally": "3.1.2",
-    "thorin-sanitize": "^1.1.6",
-    "uuid": "3.4.0"
+    "fs-extra": "11.3.0",
+    "node-fetch": "2.7.0",
+    "thorin-sanitize": "1.1.8",
+    "uuid": "^13.0.0"
   },
-  "description": "Next gen framework with a cool sound",
-  "main": "lib/Thorin.js",
+  "description": "Thorin.io core module engine",
+  "main": "lib/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Thorinjs/Thorin"
   },
-  "homepage": "http://thorinjs.com",
+  "engines": {
+    "node": ">= 16.x"
+  },
+  "homepage": "https://thorin.io",
   "bugs": {
     "url": "https://github.com/Thorinjs/Thorin/issues"
   }
