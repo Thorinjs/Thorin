@@ -1,7 +1,7 @@
 {
   "name": "thorin",
   "author": "UNLOQ Systems",
-  "version": "2.1.35",
+  "version": "2.1.36",
   "dependencies": {
     "async": "3.2.6",
     "camelcase": "6.3.0",
