@@ -1,12 +1,12 @@
 {
   "name": "thorin",
-  "version": "2.1.38",
+  "version": "2.2.2",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "thorin",
-      "version": "2.1.38",
+      "version": "2.2.2",
       "license": "MIT",
       "dependencies": {
         "async": "3.2.6",
@@ -197,9 +197,9 @@
       }
     },
     "node_modules/uuid": {
-      "version": "13.0.0",
-      "resolved": "https://registry.npmjs.org/uuid/-/uuid-13.0.0.tgz",
-      "integrity": "sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==",
+      "version": "13.0.2",
+      "resolved": "https://registry.npmjs.org/uuid/-/uuid-13.0.2.tgz",
+      "integrity": "sha512-vzi9uRZ926x4XV73S/4qQaTwPXM2JBj6/6lI/byHH1jOpCzb0zDbfytgA9LcN/hzb2l7WQSQnxITOVx5un/wGw==",
       "funding": [
         "https://github.com/sponsors/broofa",
         "https://github.com/sponsors/ctavan"
@@ -353,9 +353,9 @@
       "integrity": "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ=="
     },
     "uuid": {
-      "version": "13.0.0",
-      "resolved": "https://registry.npmjs.org/uuid/-/uuid-13.0.0.tgz",
-      "integrity": "sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w=="
+      "version": "13.0.2",
+      "resolved": "https://registry.npmjs.org/uuid/-/uuid-13.0.2.tgz",
+      "integrity": "sha512-vzi9uRZ926x4XV73S/4qQaTwPXM2JBj6/6lI/byHH1jOpCzb0zDbfytgA9LcN/hzb2l7WQSQnxITOVx5un/wGw=="
     },
     "webidl-conversions": {
       "version": "3.0.1",
